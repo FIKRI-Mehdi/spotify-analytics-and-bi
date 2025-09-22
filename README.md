@@ -206,10 +206,34 @@ This optimization shows how indexing can drastically reduce query time, improvin
 
 ---
 
-## Next Steps
-- **Visualize the Data**: Use a data visualization tool like **Tableau** or **Power BI** to create dashboards based on the query results.
-- **Expand Dataset**: Add more rows to the dataset for broader analysis and scalability testing.
-- **Advanced Querying**: Dive deeper into query optimization and explore the performance of SQL queries on larger datasets.
+## Data Visualidation
+An interactive Power BI dashboard that explores Spotify/YouTube performance for songs and artists. It combines streams (Spotify), views (YouTube), likes, and audio features (energy, liveness) to surface who’s performing best and where.
+
+***Key metrics***
+
+	- Total Streams – sum of Spotify streams
+	- Total Views – sum of YouTube views
+	- Engagement % – Total Likes / Total Views
+	- Avg Energy / Avg Liveness – mean audio features (0–1)
+
+***Main visuals (single page)***
+
+	- Top Streams per artist (bar)
+	- Top Views per artist (bar)
+	- Total Views per album type (column)
+	- Total Views & Streams per artist (clustered bar)
+	- Platform Skew: YouTube vs Spotify (bar of Δ = Views − Streams; green = YouTube-skew, darker = Spotify-skew)
+	- A global Artist slicer filters the entire page.
+
+***How to read it***
+
+Use the Artist slicer to focus on a specific artist or compare a subset.
+
+In Platform Skew, positive bars mean the artist over-indexes on YouTube relative to Spotify; negative bars indicate the opposite.
+
+Engagement % helps judge quality of attention (likes per view), not just volume.
+
+[![Spotify Analytics Dashboard] (https://github.com/FIKRI-Mehdi/spotify-analytics-and-bi/blob/main/Spotify_Dashboard_2025.png)
 
 ---
 
