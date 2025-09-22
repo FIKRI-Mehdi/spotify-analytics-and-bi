@@ -233,7 +233,7 @@ In Platform Skew, positive bars mean the artist over-indexes on YouTube relative
 
 Engagement % helps judge quality of attention (likes per view), not just volume.
 
-[![Spotify Analytics Dashboard] (https://github.com/FIKRI-Mehdi/spotify-analytics-and-bi/blob/main/Spotify_Dashboard_2025.png)
+![Spotify Analytics Dashboard] (https://github.com/FIKRI-Mehdi/spotify-analytics-and-bi/blob/main/Spotify_Dashboard_2025.png)
 
 ---
 
